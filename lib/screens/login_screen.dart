@@ -107,12 +107,15 @@ class _LoginScreenState extends State<LoginScreen> {
                           ),
                         ),
                         onPressed: () {
+                          FocusScope.of(context).unfocus();
                           if(formKey.currentState!.validate()){
                             final email = emailController.text;
                             final password = passwordController.text;
                             ScaffoldMessenger.of(context).showSnackBar(
                               SnackBar(content: Text('Login Success: $email')),
                             );
+                            emailController.clear();
+                            passwordController.clear();
                           }
                         },
                         child: const Padding(
