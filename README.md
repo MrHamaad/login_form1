@@ -1,16 +1,66 @@
-# login_form
+# 🚀 Flutter Login UI
 
-A new Flutter project.
+A clean and responsive login screen built using Flutter — perfect for beginners learning form validation, input handling, and UI layout!
 
-## Getting Started
+## 🖼️ Screenshots
+![Login UI](assets/images/login.jpg)
 
-This project is a starting point for a Flutter application.
+## 💡 Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Email and password form with validation
+- ✅ Password visibility toggle (eye icon)
+- ✅ Responsive design with `SingleChildScrollView`
+- ✅ Dismiss keyboard on login
+- ✅ `SnackBar` feedback on success
+- ✅ Simple, minimal UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📦 Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
+- Android Studio / VS Code
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Flutter SDK installed
+- A device/emulator or physical phone
+
+### Run the App
+
+```bash
+
+flutter pub get
+flutter run
+```
+
+### Assets
+
+flutter:
+  assets:
+    - assets/images/login.jpg
+
+### Project Structure
+
+lib/
+├── main.dart
+├── login_screen.dart
+assets/
+└── images/
+    └── login.jpg
+
+✨ What You Can Learn
+
+-TextFormField with validators
+-Managing state with setState
+-Password hide/show functionality
+-Handling user input
+-SnackBar for alerts
+-UI responsiveness with MediaQuery and SingleChildScrollView
+
+🤝 Contributing
+Pull requests are welcome! Feel free to fork this project and suggest improvements.
+
+📫 Contact
+Reach out to me on LinkedIn or create an issue here.
